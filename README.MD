@@ -13,3 +13,9 @@
 ```
 $ wrangler generate my-project https://github.com/zayabighead/cloudflare-worker-template
 ```
+
+#### 🤨 Limitations
+* Some Node.js built-in modules won't be available, you can set webpack `node` option to use some of them.
+    * available modules: https://github.com/webpack/node-libs-browser/blob/master/README.md
+    * webpack configuration: https://v4.webpack.js.org/configuration/node/
+* Other runtime limitations for Cloudflare workers: https://developers.cloudflare.com/workers/runtime-apis/web-standards
