@@ -1,0 +1,8 @@
+name = 'cloudflare-worker-template'
+workers_dev = true
+type = 'webpack'
+webpack_config = 'webpack.config.js'
+compatibility_date = '2021-12-14'
+
+[vars]
+TEST_VAR = 'test var'
